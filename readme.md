@@ -2,12 +2,14 @@
 
 This is in my opinion the best way to install and configure emacs for org-mode usage on Windows 10.  There should be an installer that does most of this stuff for emacs by default but here we are with this complicated install process.
 
+![screenshots](https://raw.githubusercontent.com/openist/dotfiles/master/org-setup.png)
+
 ## Features
 
-* Global hotkeys access to major functions
+* Global hotkeys, system tray, and windows shortcuts for quick access to major org-mode functions
 * Snipping tool workflow
 * Sane-ish keybaord shortcuts
-* System tray quick access to major functions
+* Syncing with mobile through dropbox
 
 ## Keys
 

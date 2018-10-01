@@ -354,7 +354,7 @@ you should place your code here."
               (push '("DONE" . "✓" ) prettify-symbols-alist)
               (prettify-symbols-mode)
               ))
-
+  (setq-default frame-title-format '("%f [%m]"))
   (add-hook 'org-mode-hook
             '(lambda ()
                (define-key org-mode-map  [(C-M-right)] 'org-todo)
