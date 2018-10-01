@@ -16,13 +16,13 @@ This is in my opinion the best way to install and configure emacs for org-mode u
 * Single click: Open emacs or bring to focus
 * Double click: New orgmode note
 * Right click for:
-** Close emacs Server
-** (META-F1) New Note
-** (META-F2) New Note Clipboard
-** (META-F3) New Note Snipping Tool
-** (META-F4) Display Inbox
-** (META-F5) Show org file index
-** (META-F6) Show org agenda
+ * Close emacs Server
+ * (META-F1) New Note
+ * (META-F2) New Note Clipboard
+ * (META-F3) New Note Snipping Tool
+ * (META-F4) Display Inbox
+ * (META-F5) Show org file index
+ * (META-F6) Show org agenda
 
 ## Keys
 
