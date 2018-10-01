@@ -11,6 +11,33 @@ This is in my opinion the best way to install and configure emacs for org-mode u
 
 ## Keys
 
+```
+General Keys
+* C-s          -- save
+* C-z          -- undo
+* C-y          -- redo
+* S-u/d/l/r    -- select text
+* SPC-q-q      -- quit and save
+* SPC-q-Q      -- force quit
+Window control
+* SPC-w-c      -- close window (split)
+* SPC-w--      -- split window
+* SPC-b-b      -- list buffers
+* SPC-q-z      -- kill the current frame
+* SPC-b-d      -- close buffer
+Org-mode Keys
+* META-ret-ret -- new list below current
+* C-left/right -- demote / promote
+* C-up/down    -- move tree up / down
+* C-M-l/r      -- mark todo
+* C-M-u/d      -- set priority
+* M-RET !      -- schedule item
+* M-RET A      -- archive item
+* META-ret     -- org commands
+* TAB          -- cycle visibility
+* S-TAB        -- cycle global visibility
+```
+
 ## Install Instructions
 
 ### Pre-requisits
@@ -20,10 +47,6 @@ This is in my opinion the best way to install and configure emacs for org-mode u
 * http://getgreenshot.org/
 * https://www.msys2.org/
 * https://www.dropbox.com/
-
-### Replace my username with your own
-
-* My username (math0) will have to be replaced with your own across all files in the repo.
 
 ### Set windows %HOME% enviroment variable
 
@@ -38,6 +61,16 @@ This is in my opinion the best way to install and configure emacs for org-mode u
 pacman -S mingw-w64-x86_64-emacs
 pacman -S git
 ```
+
+### Clone this repo
+
+```
+git clone https://github.com/math0ne/windows-emacs-org.git C:\Users\%USERNAME%\Dropbox\emacs
+```
+
+### Replace my username with your own
+
+* My username (math0) will have to be replaced with your own across all files in the repo.
 
 ### Register context and org protocol
 
@@ -59,3 +92,8 @@ This allows you to snip screenshots directly into your emacs org setup.
 
 * org-mode-tray.ahk
 * greenshot
+
+### _Optional_ Setup Orgzly on Android
+
+* http://www.orgzly.com/
+* Set it to sync with C:\Users\%USERNAME%\Dropbox\emacs\org
