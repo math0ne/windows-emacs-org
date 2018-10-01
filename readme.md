@@ -2,7 +2,7 @@
 
 This is in my opinion the best way to install and configure emacs for org-mode usage on Windows 10.  There should be an installer that does most of this stuff for emacs by default but here we are with this complicated install process.
 
-![screenshots](https://raw.githubusercontent.com/openist/dotfiles/master/org-setup.png)
+![screenshots](https://raw.githubusercontent.com/math0ne/windows-emacs-org/master/org-setup.png)
 
 ## Features
 
