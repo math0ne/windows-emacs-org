@@ -1,0 +1,4 @@
+home/*
+org/*
+
+!home/.spacemacs
