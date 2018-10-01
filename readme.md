@@ -11,6 +11,19 @@ This is in my opinion the best way to install and configure emacs for org-mode u
 * Sane-ish keybaord shortcuts
 * Syncing with mobile through dropbox
 
+## System Tray Usage
+
+* Single click: Open emacs or bring to focus
+* Double click: New orgmode note
+* Right click for:
+** Close emacs Server
+** (META-F1) New Note
+** (META-F2) New Note Clipboard
+** (META-F3) New Note Snipping Tool
+** (META-F4) Display Inbox
+** (META-F5) Show org file index
+** (META-F6) Show org agenda
+
 ## Keys
 
 ```
@@ -55,18 +68,14 @@ Org-mode Keys
 * Instructions: https://www.computerhope.com/issues/ch000549.htm
 * Add a new user variable HOME = `C:\Users\math0\Dropbox\emacs\home`
 
-### Install Emacs using MSYS2
+### Install Emacs, Spacemacs, git and this config
 
 * From the MSYS2 command line:
 
 ```
 pacman -S mingw-w64-x86_64-emacs
 pacman -S git
-```
-
-### Clone this repo
-
-```
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 git clone https://github.com/math0ne/windows-emacs-org.git C:\Users\%USERNAME%\Dropbox\emacs
 ```
 
@@ -95,7 +104,7 @@ This allows you to snip screenshots directly into your emacs org setup.
 * org-mode-tray.ahk
 * greenshot
 
-### _Optional_ Setup Orgzly on Android
+### _(Optional)_ Setup Orgzly on Android
 
 * http://www.orgzly.com/
 * Set it to sync with C:\Users\%USERNAME%\Dropbox\emacs\org
