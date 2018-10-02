@@ -27,6 +27,14 @@ This is in my opinion the best way to install and configure emacs for org-mode u
 ## Keys
 
 ```
+Global Hotkeys
+* META-F1      -- New Note
+* META-F2      -- New Note Clipboard
+* META-F3      -- New Note Snipping Tool
+* META-F4      -- Display Inbox
+* META-F5      -- Show org file index
+* META-F6      -- Show org agenda
+
 General Keys
 * C-s          -- save
 * C-z          -- undo
@@ -34,12 +42,14 @@ General Keys
 * S-u/d/l/r    -- select text
 * SPC-q-q      -- quit and save
 * SPC-q-Q      -- force quit
+
 Window control
 * SPC-w-c      -- close window (split)
 * SPC-w--      -- split window
 * SPC-b-b      -- list buffers
 * SPC-q-z      -- kill the current frame
 * SPC-b-d      -- close buffer
+
 Org-mode Keys
 * META-ret-ret -- new list below current
 * C-left/right -- demote / promote
